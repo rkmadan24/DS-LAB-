@@ -1,3 +1,16 @@
+/*
+    LAB PROGRAM 1:Write a program to simulate the working of stack using an 
+                  array with the following: 
+                  a) Push 
+                  b) Pop 
+                  c) Display 
+                  The program should print appropriate messages for stack 
+                  overflow, stack underflow 
+*/
+
+
+//CODE:
+
 #include <stdio.h>
 #define MAX 100
 
@@ -85,3 +98,66 @@ void display()
         }
     }
 }
+
+/*
+OUTPUT:
+------
+FOLLOWING ARE THE STACK OPERATIONS
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter your choice: 1
+Enter the value to be pushed (inserted at the top): 25
+25 Pushed to stack
+FOLLOWING ARE THE STACK OPERATIONS
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter your choice: 1
+Enter the value to be pushed (inserted at the top): 45
+45 Pushed to stack
+FOLLOWING ARE THE STACK OPERATIONS
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter your choice: 1
+Enter the value to be pushed (inserted at the top): 32
+32 Pushed to stack
+FOLLOWING ARE THE STACK OPERATIONS
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter your choice: 3
+Stack elements are:
+32
+45
+25
+FOLLOWING ARE THE STACK OPERATIONS
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter your choice: 2
+32 Popped from stack
+FOLLOWING ARE THE STACK OPERATIONS
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter your choice: 3
+Stack elements are:
+45
+25
+FOLLOWING ARE THE STACK OPERATIONS
+1.PUSH
+2.POP
+3.DISPLAY
+4.EXIT
+Enter your choice: 4
+
+*/
+//PROGRAM EXECUTION STOPS HERE
