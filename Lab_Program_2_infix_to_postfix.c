@@ -1,3 +1,15 @@
+/*
+LAB PROGRAM 2:
+WAP to convert a given valid parenthesized infix 
+arithmetic expression to postfix expression. The 
+expression consists of single character operands and the 
+binary operators + (plus), - (minus), * (multiply) and / 
+(divide)
+*/
+
+
+//CODE:
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -66,4 +78,13 @@ int main() {
     
     return 0;
 }
-A
+
+/*
+
+OUTPUT:
+------
+
+Enter infix expression: A+B-C*(D^E)+F
+Postfix expression: AB+CDE*-F+
+
+*/
