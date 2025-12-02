@@ -1,3 +1,16 @@
+/*
+    LAB PROGRAM : 4 WAP to Implement Singly Linked List with following 
+                    operations
+                    a) Createalinkedlist.
+                    b) Insertion of a node at first position, at any position and
+                    at end of list.
+                    Display the contents of the linked list.
+
+*/
+
+// CODE:
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -149,3 +162,73 @@ int main() {
 
     return 0;
 }
+
+// OUTPUT:
+
+/*
+
+--- Singly Linked List Menu ---
+1. Create Linked List
+2. Insert at Beginning
+3. Insert at Any Position
+4. Insert at End
+5. Display Linked List
+6. Exit
+Enter your choice: 1
+Enter the number of nodes: 4
+Enter value for node 1: 23
+Enter value for node 2: 67
+Enter value for node 3: 87
+Enter value for node 4: 11
+
+--- Singly Linked List Menu ---
+1. Create Linked List
+2. Insert at Beginning
+3. Insert at Any Position
+4. Insert at End
+5. Display Linked List
+6. Exit
+Enter your choice: 2
+Enter value to insert at beginning: 1
+
+--- Singly Linked List Menu ---
+1. Create Linked List
+2. Insert at Beginning
+3. Insert at Any Position
+4. Insert at End
+5. Display Linked List
+6. Exit
+Enter your choice: 3
+Enter position to insert (starting from 1): 4
+Enter value: 90 
+
+--- Singly Linked List Menu ---
+1. Create Linked List
+2. Insert at Beginning
+3. Insert at Any Position
+4. Insert at End
+5. Display Linked List
+6. Exit
+Enter your choice: 4
+Enter value to insert at end: 8
+
+--- Singly Linked List Menu ---
+1. Create Linked List
+2. Insert at Beginning
+3. Insert at Any Position
+4. Insert at End
+5. Display Linked List
+6. Exit
+Enter your choice: 5
+Linked List: 1 -> 23 -> 67 -> 90 -> 87 -> 11 -> 8 -> NULL
+
+--- Singly Linked List Menu ---
+1. Create Linked List
+2. Insert at Beginning
+3. Insert at Any Position
+4. Insert at End
+5. Display Linked List
+6. Exit
+Enter your choice: 6
+
+*/
