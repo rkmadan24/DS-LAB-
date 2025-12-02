@@ -1,3 +1,14 @@
+/*
+    LAB PROGRAM 3: a) WAP to simulate the working of a queue of integers 
+                      using an array. Provide the following operations: Insert, 
+                      Delete, Display.
+                      The program should print appropriate messages for queue 
+                      empty and queue overflow conditions
+*/
+
+
+// CODE:
+
 #include <stdio.h>
 #include <stdlib.h>
 #define MAX 100   
@@ -80,3 +91,60 @@ int main() {
 
     return 0;
 }
+
+// OUTPUT:
+
+/*
+
+--- Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the element to insert: 23
+Inserted 23 successfully.
+
+--- Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the element to insert: 45
+Inserted 45 successfully.
+
+--- Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the element to insert: 78
+Inserted 78 successfully.
+
+--- Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 2
+Deleted element: 23
+
+--- Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 3
+Queue elements are: 45 78 
+
+--- Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 4
+
+
+*/
