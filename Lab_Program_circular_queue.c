@@ -1,3 +1,13 @@
+/*
+    LAB PROGRAM : 3 b) WAP to simulate the working of a circular queue of 
+                       integers using an array. Provide the following operations: 
+                       Insert, Delete & Display
+                       The programshould print appropriate messagesfor queue 
+                       empty and queue overflow conditions
+ */
+
+// CODE:
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -97,3 +107,68 @@ int main() {
 
     return 0;
 }
+
+// OUTPUT:
+
+
+/*
+--- Circular Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter element to insert: 23
+Inserted 23 successfully.
+
+--- Circular Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter element to insert: 67
+Inserted 67 successfully.
+
+--- Circular Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter element to insert: 56
+Inserted 56 successfully.
+
+--- Circular Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 1
+Enter element to insert: 45
+Inserted 45 successfully.
+
+--- Circular Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 2
+Deleted element: 23
+
+--- Circular Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 3
+Circular Queue elements: 67 56 45 
+
+--- Circular Queue Menu ---
+1. Insert
+2. Delete
+3. Display
+4. Exit
+Enter your choice: 4
+
+*/
