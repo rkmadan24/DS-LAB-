@@ -1,3 +1,15 @@
+/*
+    LAB PROGRAM 5 : WAP to Implement Singly Linked List with following 
+                    operations 
+                    a) Create a linked list. 
+                    b) Deletion of first element, specified element and last 
+                       element in the list. 
+                    c) Display the contents of the linked list.
+
+*/
+
+// CODE:
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -154,4 +166,78 @@ int main() {
     }
 
     return 0;
+
 }
+
+
+// OUTPUT:
+
+
+/*
+
+Menu:
+1. Create Linked List
+2. Delete at First Position
+3. Delete at End Position
+4. Delete at Specific Position
+5. Display List
+6. Exit
+Enter your choice: 1
+Enter the number of nodes: 5
+Enter value for node 1: 32
+Enter value for node 2: 4556
+Enter value for node 3: 65
+Enter value for node 4: 23
+Enter value for node 5: 56
+
+Menu:
+1. Create Linked List
+2. Delete at First Position
+3. Delete at End Position
+4. Delete at Specific Position
+5. Display List
+6. Exit
+Enter your choice: 2
+Node at first position deleted successfully.
+
+Menu:
+1. Create Linked List
+2. Delete at First Position
+3. Delete at End Position
+4. Delete at Specific Position
+5. Display List
+6. Exit
+Enter your choice: 4
+Enter position to delete: 2
+Node at position 2 deleted successfully.
+
+Menu:
+1. Create Linked List
+2. Delete at First Position
+3. Delete at End Position
+4. Delete at Specific Position
+5. Display List
+6. Exit
+Enter your choice: 3
+Node at end position deleted successfully.
+
+Menu:
+1. Create Linked List
+2. Delete at First Position
+3. Delete at End Position
+4. Delete at Specific Position
+5. Display List
+6. Exit
+Enter your choice: 5
+Linked List: 4556 -> 23 -> NULL
+
+Menu:
+1. Create Linked List
+2. Delete at First Position
+3. Delete at End Position
+4. Delete at Specific Position
+5. Display List
+6. Exit
+Enter your choice: 6
+
+*/
