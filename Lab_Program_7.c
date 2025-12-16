@@ -1,3 +1,15 @@
+/*
+    LAB PROGRAM 7 : WAP to Implement doubly link list with primitive 
+                    operations 
+                    a) Create a doubly linked list. 
+                    b) Insert a new node to the left of the node. 
+                    c) Delete the node based on a specific value 
+                    d) Display the contents of the list
+
+*/
+
+// CODE:
+
 #include <stdio.h>
 #include <stdlib.h>
 struct node
@@ -134,3 +146,20 @@ int main()
 
     return 0;
 }
+
+// OUTPUT:
+
+/*
+Enter number of nodes: 5
+Enter data: 23
+Enter data: 11
+Enter data: 99
+Enter data: 77
+Enter data: 44
+List: 23 <-> 11 <-> 99 <-> 77 <-> 44 <-> NULL
+Enter value to insert left of: 44
+Enter new value: 66
+List: 23 <-> 11 <-> 99 <-> 77 <-> 66 <-> 44 <-> NULL
+Enter value to delete: 11
+List: 23 <-> 99 <-> 77 <-> 66 <-> 44 <-> NULL
+*/
