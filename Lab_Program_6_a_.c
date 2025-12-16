@@ -1,3 +1,14 @@
+/*
+
+LAB PROGRAM 6 a): 
+                 a) WAP to Implement Single Link List with following 
+                 operations: Sort the linked list, Reverse the linked list, 
+                 Concatenation of two linked lists.
+*/
+
+
+// CODE:
+
 #include <stdio.h>
 #include <stdlib.h>
 struct node
@@ -135,3 +146,32 @@ int main()
 
     return 0;
 }
+
+
+// OUTPUT:
+
+/*
+
+Create First List      
+Enter number of nodes: 5
+Enter data: 32
+Enter data: 45
+Enter data: 78
+Enter data: 11
+Enter data: 21
+Create Second List     
+Enter number of nodes: 4
+Enter data: 22
+Enter data: 46
+Enter data: 89
+Enter data: 32
+
+First List: 32 -> 45 -> 78 -> 11 -> 21 -> NULL
+Second List: 22 -> 46 -> 89 -> 32 -> NULL
+
+Sorted First List: 11 -> 21 -> 32 -> 45 -> 78 -> NULL
+Reversed First List: 78 -> 45 -> 32 -> 21 -> 11 -> NULL
+Concatenated List: 78 -> 45 -> 32 -> 21 -> 11 -> 22 -> 46 -> 89 -> 32 -> NULL
+
+*/
+
