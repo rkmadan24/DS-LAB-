@@ -1,3 +1,14 @@
+/*
+    LAB PROGRAM 8 : Write a program 
+                    a) To construct a binary Search tree. 
+                    b) To traverse the tree using all the methods i.e., in-order, 
+                       preorder and post order 
+                    c) To display the elements in the tree.
+
+*/
+
+// CODE:
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -102,3 +113,21 @@ int main()
 
     return 0;
 }
+
+// OUTPUT:
+
+/*
+
+Enter number of nodes: 5
+Enter values:
+32
+124
+43
+85
+35
+
+Inorder Traversal: 32 35 43 85 124   
+Preorder Traversal: 32 124 43 35 85  
+Postorder Traversal: 35 85 43 124 32 
+
+*/
