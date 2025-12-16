@@ -1,3 +1,12 @@
+/* 
+    LAB PROGRAM 6 b):  WAP to Implement Single Link List to simulate Stack & 
+                       Queue Operations. 
+
+*/
+
+// CODE:
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -186,3 +195,147 @@ int main()
 
     return 0;
 }
+
+// OUTPUT:
+
+/*
+
+--- MENU ---      
+1. Push (Stack)   
+2. Pop (Stack)    
+3. Display Stack  
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue  
+7. Exit
+Enter choice: 1   
+Enter value: 34
+Pushed 34 into stack
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 1
+Enter value: 65 
+Pushed 65 into stack
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 1
+Enter value: 22
+Pushed 22 into stack
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 2
+Popped 22 from stack
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 3
+Stack elements: 65 34 
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 4
+Enter value: 56
+Enqueued 56 into queue
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 489
+Invalid choice
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 4
+Enter value: 32
+Enqueued 32 into queue
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 4
+Enter value: 90
+Enqueued 90 into queue
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 5
+Dequeued 56 from queue
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 6
+Queue elements: 32 90 
+
+--- MENU ---
+1. Push (Stack)
+2. Pop (Stack)
+3. Display Stack
+4. Enqueue (Queue)
+5. Dequeue (Queue)
+6. Display Queue
+7. Exit
+Enter choice: 7
+
+*/
+
