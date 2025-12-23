@@ -1,3 +1,11 @@
+/*
+    LAB PROGRAM 9 b) :  Write a program to check whether given graph is 
+                        connected or not using DFS method. 
+
+*/
+
+// CODE :
+
 #include <stdio.h>
 #include <conio.h>
 
@@ -56,3 +64,18 @@ void main()
 
     getch();
 }
+
+//  OUTPUT :
+
+/*
+
+Enter the number of nodes
+4
+Enter the adjacency matrix
+0 1 0 0
+0 0 1 0
+0 0 0 1
+1 0 0 0
+Graph is connected
+
+*/
