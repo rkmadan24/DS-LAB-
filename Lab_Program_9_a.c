@@ -1,3 +1,11 @@
+/*
+    LAB PROGRAM 9 a) :Write a program to traverse a graph using BFS method.
+
+*/
+
+// CODE:
+
+
 #include <stdio.h>
 #include <conio.h>
 
@@ -73,3 +81,36 @@ void main()
     getch();
 }
 
+// OUTPUT:
+
+/*
+
+Enter the number of nodes
+10
+Enter the adjacency matrix
+0 1 1 1 0 0 0 0 0 0
+0 0 0 0 1 0 0 0 0 0
+0 0 0 0 0 1 0 0 0 0
+0 0 0 0 0 0 1 0 0 0
+0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0 0 1
+0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 
+Enter the source
+0
+Vertex 0 is reachable
+Vertex 1 is reachable
+Vertex 2 is reachable
+Vertex 3 is reachable
+Vertex 4 is reachable
+Vertex 5 is reachable
+Vertex 6 is reachable
+Vertex 7 is reachable
+Vertex 8 is reachable
+Vertex 9 is reachable
+The BFS traversal is
+01 02 03 14 25 36 47 68 79 00
+
+*/
