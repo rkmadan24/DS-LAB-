@@ -63,3 +63,29 @@ int main() {
     return 0;
 }
 
+/*
+Enter size of hash table (m): 10
+Enter number of employee records: 5
+Enter 4-digit employee key: 1234
+Key 1234 inserted at address 4
+Enter 4-digit employee key: 2345
+Key 2345 inserted at address 5
+Enter 4-digit employee key: 3456
+Key 3456 inserted at address 6
+Enter 4-digit employee key: 4567
+Key 4567 inserted at address 7
+Enter 4-digit employee key: 5678
+Key 5678 inserted at address 8
+
+Hash Table Contents:
+HT[0] : EMPTY
+HT[1] : EMPTY
+HT[2] : EMPTY
+HT[3] : EMPTY
+HT[4] : 1234
+HT[5] : 2345
+HT[6] : 3456
+HT[7] : 4567
+HT[8] : 5678
+HT[9] : EMPTY
+    */
